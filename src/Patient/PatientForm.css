@@ -1,0 +1,27 @@
+.patient-form {
+  width: 500px;
+  margin: 100px auto;
+  padding: 40px;
+  background: lightblue;
+  border: 5px solid darkblue;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.patient-form h1 {
+  color: darkblue;
+  font-size: 40px;
+}
+
+.patient-form input {
+  width: 80%;
+  padding: 15px;
+  margin: 10px;
+}
+
+.patient-form button {
+  padding: 15px 30px;
+  background: darkblue;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.35);
+  padding-bottom: 60px;
+}
+
+.header {
+  background: rgba(15, 76, 117, 0.95);
+  color: white;
+  padding: 18px 40px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.welcome h1 {
+  font-size: 48px;
+  color: #0f4c75;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px white;
+}
+
+.welcome p {
+  font-size: 20px;
+  color: #234;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  width: 210px;
+  min-height: 190px;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card h2 {
+  color: #0f4c75;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.5;
+  min-height: 55px;
+}
+
+.card button {
+  background: #0f8b8d;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background: #095c5e;
+}

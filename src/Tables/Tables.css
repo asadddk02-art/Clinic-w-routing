@@ -1,0 +1,31 @@
+.tables-container {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.tables-container h1 {
+  color: #0f4c75;
+  margin-bottom: 25px;
+}
+
+.tables-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.tables-container th {
+  background: #0f4c75;
+  color: white;
+  padding: 12px;
+}
+
+.tables-container td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.tables-container tr:hover {
+  background: #f2f2f2;
+}
